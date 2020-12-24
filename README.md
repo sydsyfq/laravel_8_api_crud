@@ -1,8 +1,8 @@
-My name is Syed Syafiq bin Syed Alias
-Email address: syedsyafiq12@gmail.com
+My name is Syed Syafiq bin Syed Alias<br />
+Email address: syedsyafiq12@gmail.com<br />
 
-This is a REST API for the user model. This API can get all & single user, create, edit and delete (CRUD),
-The API only can be accessed if the user is authenticated through Laravel passport.
+This is a REST API for the user model. This API can get all & single user, create, edit and delete (CRUD).<br />
+The API only can be accessed if the user is authenticated through Laravel passport.<br />
 
 1. To test this API, kindly use the Postman application.<br />
 2. To register or create a user, use POST and insert http://localhost:8000/api/register and insert name, email, and password in the body.<br />
