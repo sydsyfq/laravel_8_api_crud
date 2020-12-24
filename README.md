@@ -5,7 +5,7 @@ This is a REST API for the user model. This API can get all & single user, creat
 The API only can be accessed if the user is authenticated through Laravel passport.
 
 To test this API, kindly use the Postman application.<br />
-To register or create a user, use POST and insert http://localhost:8000/api/register and insert name, email, and password in the body<br />.
+To register or create a user, use POST and insert http://localhost:8000/api/register and insert name, email, and password in the body.<br />
 To login, use POST and insert http://localhost:8000/api/login insert email and password in the body.<br />
 To get all user, use GET and insert http://localhost:8000/api/users.<br />
 To get one user by inserting their ID, use GET and insert http://localhost:8000/api/users/{id}.<br />
