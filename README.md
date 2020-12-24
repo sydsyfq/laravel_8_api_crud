@@ -6,7 +6,8 @@ The API only can be accessed if the user is authenticated through Laravel passpo
 
 1. To test this API, kindly use the Postman application.<br />
 2. To register or create a user, use POST and insert http://localhost:8000/api/register and insert name, email, and password in the body.<br />
-3. To login, use POST and insert http://localhost:8000/api/login insert email and password in the body.<br />
+3. To login, use POST and insert http://localhost:8000/api/login insert email and password in the body.<br /><br />
+To perform activities below, please insert the BEARER TOKEN in authorization which can be obtain when you login the user.<br />
 4. To get all user, use GET and insert http://localhost:8000/api/users.<br />
 5. To get one user by inserting their ID, use GET and insert http://localhost:8000/api/users/{id}.<br />
 6. To edit user, use PATCH and insert http://localhost:8000/api/users/{id} and insert the intended data to be edit in the body.<br />
